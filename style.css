@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #050507;
+  color: white;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+input, button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  width: 220px;
+}
+
+button {
+  background: #ffd538;
+  font-weight: bold;
+}
